@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ActivityActivity"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.edgardo.movil.architect.Activity.Maps.ActivityMapFragment"
+        android:id="@+id/map"
+        />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/action_open_camera"
+        fab:fab_icon="@drawable/ic_my_camera"
+        fab:fab_colorNormal="@color/colorAccent"
+        fab:fab_colorPressed="@color/colorPrimary"
+        fab:fab_size="normal"
+        fab:fab_title="Tomar foto"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </com.getbase.floatingactionbutton.FloatingActionButton>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/action_record"
+        fab:fab_icon="@drawable/ic_my_mic"
+        fab:fab_colorNormal="@color/colorAccent"
+        fab:fab_colorPressed="@color/colorPrimary"
+        fab:fab_size="normal"
+        fab:fab_title="Manten presionado para grabar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+    </com.getbase.floatingactionbutton.FloatingActionButton>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/action_text"
+        fab:fab_icon="@drawable/ic_text"
+        fab:fab_colorNormal="@color/colorAccent"
+        fab:fab_colorPressed="@color/colorPrimary"
+        fab:fab_size="normal"
+        fab:fab_title="Escribe una nota"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/action_record"
+        android:layout_toStartOf="@+id/action_record">
+    </com.getbase.floatingactionbutton.FloatingActionButton>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/action_upload"
+        fab:fab_icon="@drawable/ic_upload"
+        fab:fab_colorNormal="@color/colorAccent"
+        fab:fab_colorPressed="@color/colorPrimary"
+        fab:fab_size="normal"
+        fab:fab_title="Enviar actividad"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </com.getbase.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>

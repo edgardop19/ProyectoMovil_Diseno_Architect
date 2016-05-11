@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Architect</string>
+    <string name="google_maps_key">AIzaSyAkxiVK5MLdCww4qRq6Vs0Kuz0qVDQBGn0</string>
+    <string name="notification_fail">Envio Fallido...</string>
+    <string name="notification_share_link">Share link</string>
+    <string name="notifaction_success">Subida exitosa</string>
+    <string name="notification_progress">Enviando imagenes...</string>
+    <string name="title_activity_activities">ActivitiesActivity</string>
+</resources>
